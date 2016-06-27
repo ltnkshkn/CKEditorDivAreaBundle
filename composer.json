@@ -1,0 +1,37 @@
+{
+	"name" : "quad/ckeditor-divarea-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the CKEditor plugin uses a <div> element (instead of the traditional <iframe> element)",
+	"keywords" : [
+		"ckeditor",
+		"div",
+		"editing",
+		"area",
+		"symfony"
+	],
+	"homepage" : "http://ckeditor.com/addon/divarea",
+	"license" : [
+		"LGPL-3.0",
+		"GPL-3.0",
+		"CKSource CDL",
+		"MPL"
+	],
+	"authors" : [{
+			"name" : "Merwan Boudriss",
+			"email" : "m.boudriss@lamarquequadruepde.com",
+			"homepage" : "http://www.lamarquequadrupede.com/"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"suggest" : {
+		"Trsteel/ckeditor-bundle" : "The CKEditor Bundle we're using ;)"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Quad\\CKEditorDivAreaBundle" : ""
+		}
+	},
+	"target-dir" : "Quad/CKEditorDivAreaBundle"
+}
